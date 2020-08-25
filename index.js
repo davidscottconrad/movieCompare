@@ -52,6 +52,10 @@ const onMovieSelect = async (movie, summaryElement) => {
     summaryElement.innerHTML = movieTemplate(response.data);
 };
 
+function newfun(){
+    console.log('hello');
+}
+
 const movieTemplate = (movieDetail) => {
     return `
         <article class="media">
